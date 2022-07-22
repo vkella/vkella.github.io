@@ -1776,7 +1776,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -4522,4 +4522,127 @@ blockquote small{
 .carousel-indicators li:hover{
 	background: #aaa;
 	background: rgba(255,255,255,0.7);
+}
+
+/* Features Header */
+.features-header {
+  background: #f5f5f5;
+  margin: 30px 0;
+  padding: 30px 30px;
+}
+
+.features-wrap {
+  background: #f5f5f5;
+  padding: 30px 30px 0px;
+  margin-bottom: 50px;
+}
+
+/* Features Box */
+.featured-box {
+  margin-bottom: 30px;
+}
+
+.featured-box .featured-icon {
+  float: left;
+}
+
+.featured-box .featured-icon i {
+  width: 48px;
+  height: 48px;
+  color: #EB586F;
+  border: 1px solid #EB586F;
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  font-size: 22px;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.featured-box .featured-content {
+  padding-left: 64px;
+}
+
+.featured-box .featured-content h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.featured-box:hover .featured-icon i {
+  background: #EB586F;
+  color: #fff;
+}
+
+.featured-center {
+  text-align: center;
+}
+
+.featured-center .featured-icon {
+  float: none;
+  margin-bottom: 20px;
+}
+
+.featured-center .border-icon i {
+  font-size: 30px;
+  border: none;
+}
+
+.featured-center .featured-content {
+  padding-left: 0;
+}
+
+.featured-img {
+  margin-bottom: 30px;
+}
+
+.featured-img .featured-content {
+  background: #f5f5f5;
+  padding: 15px;
+}
+
+.featured-img .featured-content h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.featured-box-item {
+  margin-bottom: 40px;
+}
+
+.featured-box-item .featured-icon {
+  float: left;
+}
+
+.featured-box-item .featured-icon i {
+  width: 70px;
+  height: 70px;
+  color: #EB586F;
+  border: 2px solid #f1f1f1;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.featured-box-item .featured-content {
+  padding-left: 88px;
+}
+
+.featured-box-item .featured-content h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.featured-box-item:hover .featured-icon i {
+  background: #EB586F;
+  color: #fff;
 }
