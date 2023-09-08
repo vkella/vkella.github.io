@@ -495,10 +495,7 @@
                 <div class="modal-body">
                   <h2>Solar Car</h2>
                   <p class="lead">Concepted, built, and tested a Solar Car over the course of two years, completely from scratch.</p>
-                  <div class="lead mb-4">
-                    <b>GitHub: </b>
-                    <a href="https://github.com/venkatrebba/anomaly_detection-using-autoEncoder" target="blank">https://github.com/venkatrebba/anomaly_detection-using-autoEncoder</a>
-                  </div>
+                 
                   <a class="btn btn-dark btn-l" data-dismiss="modal" href="#">
                   <i class="fa fa-times"></i> Close Project</a>
                 </div>
