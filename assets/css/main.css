@@ -706,7 +706,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 0 0 0 1.5em;
+				padding: 0.5em 0.5em 0.5em 0.5em;
 			}
 
 			.row.gtr-uniform {
@@ -2003,9 +2003,9 @@ input, select, textarea {
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-			border-bottom: solid 2px #fff;
+			border-bottom: solid 2px rgba(0, 0, 0, 0.125);
 			display: inline-block;
-			padding-bottom: 1em;
+			/*padding-bottom: 1em; */
 			position: relative;
 		}
 
@@ -3012,7 +3012,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 2em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3728,7 +3728,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: #8a9199;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
@@ -5077,7 +5077,7 @@ blockquote small{
 			}
 
 			#main > * > .inner {
-				padding: 4em 0 2em 0 ;
+				padding: 2em 0 2em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
@@ -5156,6 +5156,68 @@ blockquote small{
 				}
 
 			}
+			
+		.profilebody {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+           /* background: linear-gradient(to right, #f0f0f0 40%, #e0e0e0 40%);*/
+        }	
+			
+		.profileIntro {
+            flex: 4;
+            padding: 20px;
+            margin: 10px; /* Adjust margin as needed */
+            border-radius: 10px; /* Optional: Add rounded corners */
+          /*   background-color: #f0f0f0; /* Default background color */
+        }
+
+        .profileIntro h1,
+        .profileIntro h2 {
+            margin-bottom: 10px;
+        }
+
+        .profileIntro img {
+            max-width: 80%;
+            height: auto;
+            
+        }
+
+        .profileIntro p {
+            margin-bottom: 10px;
+		
+            
+            
+        }
+
+        .profileIntro ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .profileIntro .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .right-column {
+            flex: 6;
+            background-color: #edeeef;
+        }
+
+        .icon-with-text {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-with-text img {
+            width: 50px; /* Adjust the width as needed */
+            height: 50px; /* Adjust the height as needed */
+            margin-right: 5px; /* Adjust margin as needed */
+        }	
 		
 /* Menu 
 
@@ -5331,3 +5393,42 @@ blockquote small{
 			opacity: 1;
 			visibility: visible;
 		}
+		
+
+.proj_box {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.proj_badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+.proj_box p {
+    font-size: 1.125rem;
+    line-height: 1.44rem;
+}
+	
+.proj_box h1, .proj_box h2, .proj_box h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}	
