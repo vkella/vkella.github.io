@@ -1,595 +1,571 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-		<title>Vamsee Krishna Kella | Portfolio</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link href="assets/css/combined.css" rel="stylesheet">
-   
-	<link href="css/combined.css" rel="stylesheet">
-		  <!-- Bootstrap Core CSS -->
-    
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/main.css">
-	<link rel="stylesheet" href="assets/css/project.css">
-	
-	 <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/font-mfizz-2.2/font-mfizz.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-	
-	
-	<link rel="stylesheet" type="text/css" href="assets/css/extras.css">
-     <!-- Custom CSS -->
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	
-	
+    <meta charset="utf-8">
+    <title>Vamsee Krishna Kella - Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="landing">
-        
-		
 
-		
-		
-		
-		<!--   Menu End -->
-		
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header" class="reveal alt">
-						<h1><a href="index.html">Vamsee Krishna Kella</a></h1>
-	<!-- Menu-->  
-		
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" style="border-bottom-width: 0; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; text-decoration: none;" href="#page-top"><b>Vamsee Krishna Kella</b></a>
-        
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="border-bottom-width: 0;" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="border-bottom-width: 0;" href="#Workexp">Work Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="border-bottom-width: 0;" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="assets/doc/VamseeKrishnaKella_Resume.pdf" style="border-bottom-width: 0;" target="blank"><b><i class="fa fa-file-pdf-o"></i> Resume</b></a>
-            </li>
-
-          </ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Vamsee Krishna </span>Portfolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+            </div>
+            <a href="assets/doc/VamseeKrishnaKella_Resume.pdf" class="btn btn-outline-primary d-none d-lg-block">Resume</a>
         </div>
-      </div>
     </nav>
-	
-					</header>
+    <!-- Navbar End -->
 
-				<!-- Banner -->
-					<section id="banner" style="background-position: center 0px; color:#FFFFFF">
-						<div class="inner">
-							<h2>Vamsee Krishna Kella</h2>
-							<p>
-							Portfolio<br>
-							</p>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/vkella" class="icon brands fa-linkedin"><span target="blank" class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/vkella" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						    <li><a href="mailto:vamsee.kella@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-							<ul class="actions special">
-								<li><a href="assets/doc/VamseeKrishnaKella_Resume.pdf" class="button primary">Resume</a></li>
-							</ul>
-						</div>
-						<a href="#about" class="more scrolly">Know More</a>
-					</section>
 
-                <!-- Introduction -->
-					<section id="about" class="style3 special">
-					     
-						 <header class="major">
-			               <h2>About</h2>
-								
-		                 </header>
-					
-						<div class="profilebody" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
-                           <!--<p class="medium-text" style="font-size: larger;text-align: justify">I am a master's student in Robotics and Autonomous Systems at Arizona State University. I have 4 plus years of personal and educational experience building hardware from scratch, deploying and interfacing hardware &amp; software, and working on sensors. Additionally, I have 2 years of experience as a software engineer, where I worked on developing and maintaining software applications. Currently, I am working as a Research Aide at Arizona State University, where I am a part of a research team. My responsibilities include developing and implementing data visualization tools and applications to support project research and analysis. I have a strong programming background in Python, MATLAB, C, C++. Additionally, I am proficient in  Git, Linux, OpenCV, Robot Operating System (ROS).</p>-->
-						<div class="profileIntro">
-						<div style="text-align: left;font-size: large;">
-                          <!-- <h1>about Me</h1>
-                           <img src="images/profile_photo.jpg" alt="Vamsee Krishna Kella"> -->
-                           <p">
-						   Embarking on a journey fueled by a childhood fascination with sensors and motors, I found myself torn between the worlds of hardware and software during my formative years. Navigating through this intersection, I pursued a bachelor's degree in electrical engineering but ultimately chose the path of a Software Engineer. Amidst this duality, I also maintained a personal lab where my love for hardware and electromechanical systems continued.
-                            </p>
-                           <p>Thus, the passion led me to delve into the realm of robotics & Embedded Systems. Further, it led me to pursue a master's degree in Robotics, solidifying my commitment to bridging the gap between hardware and software.
-                             </p>
-                            <p >Currently, I serve as the lead automation engineer at Local Grown Salads, where I apply my expertise to build an autonomous vertical farming system. Simultaneously, I continue to indulge in my love for robotics and software development, constantly tinkering with cutting-edge technologies and custom robots.
-						   </p>
-						   </div>
-                        </div>
- 
-                        <div class="profileIntro right-column">
-        <h2>Interests</h2>
-        <ul class="grid" style="list-style-type: disclosure-closed;text-align: justify;text-transform: uppercase;padding:0 0 0 5%;">
-            <li><p>Robotics</li>
-            <li><p>Computer Vision</li>
-            <li><p>Embedded Systems</li>
-            <li><p>Prototyping</li>
-            <li><p>HW/SW INTEGRATION</li>
-        </ul>
-
-        <h2>Skills</h2>
-        <ul class="grid">
-            <li class="icon-with-text"><img src="https://skillicons.dev/icons?i=py&theme=light" alt="Python">Python</li>
-            <li class="icon-with-text"><img src="https://skillicons.dev/icons?i=cpp&theme=light" alt="C++">C++</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=c&theme=light" alt="C">C</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=matlab&theme=light" alt="MATLAB">MATLAB</li>
-            <li class="icon-with-text"><img src="https://skillicons.dev/icons?i=linux&theme=light" alt="Linux">Linux</li>
-            <li class="icon-with-text"><img src="https://skillicons.dev/icons?i=ros&theme=light" alt="ROS">ROS</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=docker&theme=light" alt="Docker">Docker</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=dotnet&theme=light" alt=".NET">.Net</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=postgres&theme=light" alt="postgres">postgres</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=opencv&theme=light" alt="Opencv">OpenCV</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=arduino&theme=light" alt="arduino">Arduino</li>
-			<li class="icon-with-text"><img src="https://skillicons.dev/icons?i=ai&theme=light" alt="ai">Adobe Illustrator</li>
-			
-			
-        </ul>
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-</section>
-					
-
-<!-- Main -->
-					<div id="main">
-
-						
-				<!-- Work Experience -->
-					<section id="Workexp" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Work Experience</h2>
-								<p>A short summary of my work experience.</p>
-							</header>
-						<div class="col-lg-12">
-		                   <ul class="timeline">
-		                   <li>
-
-		  	                 <a href="" target="blank">
-		  	                 <div class="timeline-image">
-		  	                	 <img class="img-circle img-responsive" src="images/lgs.png" alt="LGS">
-		  	                 </div>
-		  	                 </a>
-		  	                 <div class="timeline-panel">
-		  	                 <div class="timeline-heading">
-		  	                	 <h5>2023 - Present</h5>
-		  	                	 <h4 class="subheading">
-		  	                	 <a href="" target="blank">Local Grown Salads</a></h4>
-		  	                 </div>
-		  	                 <div class="timeline-body">
-		  	                	 <p class="lead">I currently work as a <b>Lead Automation Engineer</b>.</p>
-		  	                 </div>
-		  	                 </div>
-		                   </li>
-						   <li class="timeline-inverted" style="margin-bottom:32px">
-		  	                 <a href="https://www.asu.edu/" target="blank">
-		  	                 <div class="timeline-image">
-		  	                	 <img class="img-circle img-responsive" src="images/asu.png" alt="ASU">
-		  	                 </div>
-		  	                 </a>
-		  	                 <div class="timeline-panel">
-		  	                 <div class="timeline-heading">
-		  	                	 <h5>2022 - 2023</h5>
-		  	                	 <h4 class="subheading">
-		  	                	 <a href="" target="blank">Arizona State University</a>,<br>Tempe, AZ</h4>
-		  	                 </div>
-		  	                 <div class="timeline-body">
-		  	                	 <p class="lead">I've worked as a <b>Research Aide</b> at Arizona State University in Tempe, Arizona.</p>
-		  	                 </div>
-		  	                 </div>
-		                   </li>
-		                   <li>
-
-		  	                 <a href="" target="blank">
-		  	                 <div class="timeline-image">
-		  	                	 <img class="img-circle img-responsive" src="images/acc.png" alt="Accenture">
-		  	                 </div>
-		  	                 </a>
-		  	                 <div class="timeline-panel">
-		  	                 <div class="timeline-heading">
-		  	                	 <h5>2019 - 2021</h5>
-		  	                	 <h4 class="subheading">
-		  	                	 <a href="" target="blank">Accenture</a>, Hyderabad, India</h4>
-		  	                 </div>
-		  	                 <div class="timeline-body">
-		  	                	 <p class="lead">I've worked as a <b>Software Developer</b>. <!--Automated and innovated new business processes to decrease human tasks, and also provided front end and back end support to client applications. --></p>
-		  	                 </div>
-		  	                 </div>
-		                   </li>
-		                  
-
-						  <li class="timeline-inverted">
-		  	                 <a href="" target="blank">
-		  	                 <div class="timeline-image">
-		  	                	 <img class="img-circle img-responsive" src="images/dxc.png" alt="DXC">
-		  	                 </div>
-		  	                 </a>
-		  	                 <div class="timeline-panel">
-		  	                 <div class="timeline-heading">
-		  	                	 <h5>2018 - 2019</h5>
-		  	                	 <h4 class="subheading">
-		  	                	 <a href="" target="blank">DXC Technology</a>, Hyderabad, India</h4>
-		  	                 </div>
-		  	                 <div class="timeline-body">
-		  	                	 <p class="lead">I've worked as an <b>Application management and delivery consultant</b>. <!-- Provided back end support for the Finacle Core Banking Application. --></p>
-		  	                 </div>
-		  	                 </div>
-		                   </li>
-		                   <li>
-		  	                 <a href="" target="blank">
-		  	                 <div class="timeline-image">
-		  	                	 <img class="img-circle img-responsive" src="images/cvr.png" alt="CVR">
-		  	                 </div>
-		  	                 </a>
-		  	                 <div class="timeline-panel">
-		  	                 <div class="timeline-heading">
-		  	                	 <h5>2016 - 2018</h5>
-		  	                	 <h4 class="subheading">
-		  	                	 <a href="" target="blank">CVR College of Engineering</a>, Hyderabad, India</h4>
-		  	                 </div>
-		  	                 <div class="timeline-body">
-		  	                	 <p class="lead">Under the supervision of Associate Professor Mr. P. Vinod Kumar, I worked as an <b> Undergraduate Research Assistant</b>.</p>
-		  	                 </div>
-		  	                 </div>
-		                   </li>
-		                   
-		                   </ul>
-	                     </div>
-						</div>
-					</section>
+    <!-- Video Modal End -->
 
 
-<!--      Work Exp Ends ---> 
-				
-
-
-  <!--<SKILLS-->
-  
-  <!-- Skills End -->
-  
-   <!-- Projects Section Starts -->
-
-    <section id="projects" class="wrapper style3 special">
-      <!-- Container Starts -->
-      <div class="inner">
-	  <div class="">
-      
-          <header class="major">
-			<h2>Projects</h2>
-								
-		  </header>
-        
-        <div class="row">
-        <div class="col-lg-12 col-md-12">
-            <!-- Projects Controller/Buttons -->
-            <div class="controls text-center wow fadeInUpQuick" data-wow-delay=".6s">
-              <a class="filter btn btn-common active" data-filter="all">
-                All
-              </a>
-              <!--<a class="filter btn btn-common" data-filter=".branding">
-                Research
-              </a>-->
-              <a class="filter btn btn-common" data-filter=".hardware">
-                Hardware
-              </a>
-              <a class="filter btn btn-common" data-filter=".ros">
-                ROS
-              </a>
-              <a class="filter btn btn-common" data-filter=".cv">
-                Computer Vision/ML
-              </a>
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 text-center text-lg-left">
+                <h3 class="text-white font-weight-normal mb-3">Hello, my name</h3>
+                <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 4px #ffffff;">Vamsee Krishna</h1>
+                <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                <div class="typed-text d-none">Mechatronics Engineer, ROS Developer, Tinkerer, </div>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    <a href="mailto:vamsee.kella@gmail.com" class="btn btn-white mr-4">Email Me</a>                        
+                    <a href="https://www.linkedin.com/in/vkella" class="btn btn-blue d-none d-sm-block mr-2">LinkedIn</a>
+                    <a href="https://github.com/vkella" class="btn btn-blue d-none d-sm-block">GitHub</a>
+                </div>
             </div>
-            <!-- Projects Controller/Buttons Ends-->
-          </div>
-
-          <div id="portfolio" class="row wow fadeInUpQuick" data-wow-delay="0.8s">
-		  
-		  
-    
-			
-			<!-- Project Add Starts -->
-			<!-- Project 1 -->
-	      <div class="col-lg-4 col-md-6 col-xs-12 mix hardware ros " data-bound="" style="display: inline-block;">
-		    
-			<div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/slam.jpg" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>LiDAR based 3D SLAM</h3>          
-			<!--    <p>Under Construction </p>
-		     -->    <p>
-					<span class="proj_badge">ROS</span> 
-					<span class="proj_badge">LiDAR</span> 
-					<span class="proj_badge">Python</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">Point Cloud</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
+            <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
+            
 			</div>
-           
-          </div>
-          <!-- Project 2 -->
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix hardware" data-bound="" style="display: inline-block;">
-            
-            <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/drone.gif" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>Path Following Drone</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">MATLAB</span> 
-					<span class="proj_badge">Simulation</span> 
-					<span class="proj_badge">OpenCV</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">Drone</span> 
-					</p>
-					<!--<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>		    
-            
-          </div>
-		 <!-- Project 3 -->
-		 <div class="col-lg-4 col-md-6 col-xs-12 mix cv" data-bound="" style="display: inline-block;">
-            
-			<div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/vo.gif" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>3D Object Detection-Sensor Fusion</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">Python</span> 
-					<span class="proj_badge">Computer Vision</span> 
-					<span class="proj_badge">Pytorch</span> 
-					<span class="proj_badge">Deep Learning</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	
-			
-			
-          </div>
-        <!-- Project 4 -->
-		<div class="col-lg-4 col-md-6 col-xs-12 mix ros hardware cv" data-bound="" style="display: inline-block;">
-		
-		    <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/indoor.jpg" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>Indoor 3D Reconstruct Using Mobile Robot</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">ROS</span> 
-					<span class="proj_badge">Camera</span> 
-					<span class="proj_badge">Python</span> 
-					<span class="proj_badge">C++</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">Point Cloud</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	 
-			 
-            </div>
-         
-         <!-- Project 5 -->
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix cv" data-bound="" style="display: inline-block;">
-		    <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/mars.png" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>Object Detection of Craters on Mars Surface</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">Python</span> 
-					<span class="proj_badge">Computer Vision</span> 
-					<span class="proj_badge">Pytorch</span> 
-					<span class="proj_badge">Deep Learning</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	
-			
-
-          </div>
-
-		 <!-- Project 6 -->
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix " data-bound="" style="display: inline-block;">
-		  
-		    <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/cart.png" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>6-DOF Robotic Arm</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">MATLAB</span> 
-					<span class="proj_badge">Simulation</span> 
-					<span class="proj_badge">Kinematics</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	
-		  
-            </div>
-       <!-- Project 7 -->
-	   <div class="col-lg-4 col-md-6 col-xs-12 mix hardware ros" data-bound="" style="display: inline-block;">
-            
-            <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/search.jpg" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>Search And Exploration Robot</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">MATLAB</span> 
-					<span class="proj_badge">ROS</span> 
-					<span class="proj_badge">OpenCV</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">Camera</span>
-					<span class="proj_badge">LiDAR</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>				
-          </div>
-          
-		<!-- Project 8 -->
-	   <div class="col-lg-4 col-md-6 col-xs-12 mix hardware" data-bound="" style="display: inline-block;">
-	   
-	        <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/solar.png" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>Solar Car</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">Motor Control</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">C</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">Arduino</span> 
-					</p>
-				<!--	<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	
-			
-            </div>	
-			
-		<!-- Project 9 -->
-	   <div class="col-lg-4 col-md-6 col-xs-12 mix hardware" data-bound="" style="display: inline-block;">
-	        <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/delta.png" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>Delta 3D Printer</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">Arduino</span> 
-					<span class="proj_badge">C</span> 
-					<span class="proj_badge">G Code</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">CAD</span> 
-					</p>
-					<!--<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	
-	   
-            
-          </div>
-        
-       <!-- Project 10 -->
-	   <div class="col-lg-4 col-md-6 col-xs-12 mix hardware" data-bound="" style="display: inline-block;">
-	   
-	        <div class="proj_box">
-				<p><a href=""><img class="img-responsive" src="images/cnc.gif" alt="lab image"></a></p>
-				<div class="caption">
-					<h3>CNC/Laser Router</h3>          
-			<!--		<p>Under Construction </p>
-			 -->		<p>
-					<span class="proj_badge">Arduino</span> 
-					<span class="proj_badge">C</span> 
-					<span class="proj_badge">G Code</span> 
-					<span class="proj_badge">Hardware</span> 
-					<span class="proj_badge">Motor Control</span> 
-					</p>
-					<!--<p><a href="" target="_blank">Project Website <i class="fa fa-external-link"></i></a></p> -->
-				</div>
-			</div>	
-			
-           
-          </div>		
-			
-			
-			
-			<!-- Project Add Ends -->
         </div>
-			
-			
-			  
-		</div>	  
-        </div>
-			
-      <!-- Container Ends -->
-	  </div>
-    </section>
-    <!-- Projects Section Ends -->
- 
- 
-
-				
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/vkella" class="icon brands fa-linkedin"><span target="blank" class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/vkella" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						    <li><a href="mailto:vamsee.kella@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>Design: <a href="http://html5up.net">Modified Version of HTML5 UP Spectral</a></li>
-							<li>Attribution: <a href="https://flic.kr/p/2eAxk2P">Grand Canyon, Tom Stahl</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-
- <!-- Main End --.
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-
-    <!-- Custom scripts -->
-    <!--<script src="js/stylish-portfolio.js"></script>-->
-    <script src="js/agency.js"></script>
-
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery-min.js.download"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-            <script src="assets/js/jquery.mixitup.js"></script>
-            <script src="assets/js/jquery.nav.js"></script>
-            <script src="assets/js/jquery.easing.min.js"></script>
-            <script src="assets/js/jquery.slicknav.js"></script>
-            <script src="assets/js/project.js"></script>
-            <script src="assets/js/bootstrap.bundle.min.js"></script>
-            <script src="assets/js/main.js"></script>
-			<script src="assets/js/agency.js"></script> 
-	
-
-</div><div id="menu"><div class="inner">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="#about">About</a></li>
-											<li><a href="#projects">Projects</a></li>
-											<li><a href="#Workexp">Work Experience</a></li>
-											<li><a href="assets/doc/VamseeKrishnaKella_Resume.pdf">Resume</a></li>
-										</ul>
-										
-</div><a class="close" href="#menu">Close</a>
-
+    </div>
 </div>
+    <!-- Header End -->
 
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/portrait_mys.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Mechatronics Engineer</h3>
+					<p style="font-size:110%;"> 
+						Currently, I am immersed in the dynamically evolving fields of Mechatronics, Robotics, and Automation Engineering, with a strong passion for bridging hardware and software. Although my academic foundation is in Electrical Engineering, where I earned my degree and pursued a master's in Robotics, my professional journey has been rooted in software development. This blend of education and career has fueled my enthusiasm for advancing technologies in Embedded Systems, AI/ML, IoT, and collaborative robotics. As a Mechatronics Engineer at AMBOTS, I develop innovative solutions for cooperative 3D printing systems, focusing on core control algorithms, backend development, and intuitive UI design.<br><br>
+
+						Outside of my professional work, I love exploring various hobbies and interests. Whether it's tinkering with robotics projects, experimenting with laser cutting, or sketching ideas for custom devices, I'm always driven by creativity. Beyond the technical realm, I find joy in traveling to new places, exploring the beauty of nature, and watching sci-fi movies that spark my imagination. I also value being humble, viewing challenges as opportunities to learn, and embracing the journey just as much as the destination.
+					</p>
+
+
+                 
+                    <a href="" class="btn btn-outline-primary mr-4">Resume</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4"> Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master In Robotics Engineering</h5>
+                            <p class="mb-2"><strong>Arizona State University</strong> | <small>August 2021 - May 2023</small></p>
+                            <p>Coursework:  </p>
+                            <a href="#portfolio" class="btn btn-outline-primary mr-4">Robot Perception</a><br>
+                            <a href="#portfolio" class="btn btn-outline-primary mr-4">Computer Vision</a><br>
+                            <a href="#portfolio" class="btn btn-outline-primary mr-4">Deep Learning</a><br>
+                            <a href="#portfolio" class="btn btn-outline-primary mr-4">Robot Kinematics</a><br>
+
+                        
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelor In Electrical and Electronics Engineering</h5>
+                            <p class="mb-2"><strong>CVR College of Engineering</strong> | <small>August 2014 - June 2018</small></p>
+                            <!-- <p>Coursework:   Mechatronics, Mechanical System Design, Product Design and Development</p> -->
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4"> Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+					    <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Mechatronics Engineer</h5>
+                            <p class="mb-2"><strong> AMBOTS Inc., Fayetteville, AR</strong> | <small>Sep 2024 - Present</small></p>
+                            <p>Leading software development for cooperative 3D printing systems, focusing on enhancing system performance and expanding functionality. Designed and implemented control algorithms, backend code using Python, ROS, and printer macros. Developed user-friendly front-end UI with Electron, enabling seamless interaction. Diagnosed and resolved system issues, improved efficiency, and introduced new features to advance the capabilities of multi-printer collaborative setups.
+						</div>
+                        
+					
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">System Engineer/Product Manager</h5>
+                            <p class="mb-2"><strong> Local Grown Salads, Remote</strong> | <small>Oct 2023 - May 2024</small></p>
+                            <p>Led the mechatronics and IoT team, integrating embedded hardware and firmware for autonomous vertical farming systems. Optimized systems and improved efficiency by 21%. Designed robotic systems for efficient product transportation, developed robust IoT architectures, and created algorithms to translate grow formulas into mechatronics schedules.
+						</div>
+                        
+						<div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Electrical Engineer</h5>
+                            <p class="mb-2"><strong>Adaptive Concepts LLC, Remote</strong> | <small>Jun 2023 - Aug 2023</small></p>
+                            <p>Created a comprehensive power budget document for the Vacuum Chamber Airship (VCA) to optimize electrical resource allocation and usage. Partnered with design engineers to ensure electrical components adhered to the budget, enhancing system performance and safety.
+                        </div>
+						
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Research Aide</h5>
+                            <p class="mb-2"><strong>Arizona State University, Tempe, AZ</strong> | <small>Mar 2022 - May 2023</small></p>
+                            <p>Developed and maintained four software solutions within a cross-functional team, focusing on design, coding, testing, and debugging. Enhanced research efforts using machine learning, data analytics, and Python, resulting in a 15% improvement in research outcomes.
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Software Engineer</h5>
+                            <p class="mb-2"><strong> Accenture, Hyderabad, India</strong> | <small>Jan 2019 - Jun 2021</small></p>
+                            <p>Managed and contributed to the success of six software applications using Python, SQL, C#, and agile methodologies, resulting in a 21% revenue increase for clients. Automated seven business processes using Python and REST API, improving integration and product quality while saving 80 hours monthly.
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Application Management and Delivery Consultant</h5>
+                            <p class="mb-2"><strong> DXC Technology, Hyderabad, India</strong> | <small>Aug 2018 - Jan 2019</small></p>
+                            <p>Maintained a banking client system by integrating Finacle's core banking application with a Linux backend. Supervised 10 Linux servers, ensuring efficient execution of end-of-day batch runs. Monitored and actioned work requests in the ticketing system, providing support with minimal instruction to enhance operational reliability.
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Research Assistant</h5>
+                            <p class="mb-2"><strong> CVR College of Engineering, Hyderabad, India</strong> | <small>Jan 2016 - Jun 2018</small></p>
+                            <p>Utilized C++, Python, and Linux to integrate hardware like Arduino, Raspberry Pi, and motor controllers. Conducted rigorous hardware testing with oscilloscopes and lab equipment; integrated and tested actuators, sensors, and motors, applying knowledge of different communication protocols.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary"> Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">ROS</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">MATLAB</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Computer Vision</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+					
+					<div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Linux</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+					
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+					<div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C++/C</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+					
+					<div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SQL/Postgres</h6>
+                            <h6 class="font-weight-bold">60%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+					
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Adobe Illustrator</h6>
+                            <h6 class="font-weight-bold">55%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid py-5" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
+                <h1 class="position-absolute text-uppercase text-primary"> Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <p style="font-size:110%; ">Click the Options from below list to see the description <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".ros">ROS</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".cv">Computer Vision/ML</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".hardware">Hardware</li>
+            
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+
+                
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item ros">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/slam.jpg" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">LiDAR Based 3D SLAM</h3>
+						 <!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">ROS</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Python</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Perception</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Control</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item hardware">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/drone.gif" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Path Following Drone</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">MATLAB</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Simulink</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Navigation</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Image Processing</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item cv">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/vo.gif" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">3D Object Detection-Sensor Fusion</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+	                    <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Python</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Deep Learning</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Pytorch</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Perception</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item ros cv hardware">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/indoor.jpg" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Visual SLAM Using Mobile Robot</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Python</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">ROS</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">SLAM</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Point Cloud</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">YOLO</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item cv">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/mars.png" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Object Detection of Mars Carters</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Python</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Deep Learning</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Computer Vision</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Pytorch</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/cart.png" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">6-DOF Robotic Arm</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                       <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">MATLAB</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Simulink</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Kinematics</p>
+
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item ros hardware">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/search.jpg" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Search And Exploration Robots</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">MATLAB</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">ROS</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Python</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Computer Vision</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item hardware">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/solar.png" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Solar Car</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Motor Control</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Mechanics</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Arduino</p>
+			
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item hardware">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/delta.png" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Delta 3D Printer</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Arduino</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">G Code</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Mechanics</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">CAD</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item hardware">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="projects_data/cnc.gif" alt="">
+                    </div>
+                    <div class="position-relative overflow-hidden mb-2">
+                        <h3 class="mb-4">Laser Engraver</h3>
+						<!-- 
+                        <p style="font-size:110%; text-align: justify; ">
+                            Developed a comprehensive computer vision system for self-driving cars,implementing advanced features such as vehicle, traffic
+light and lane detection and classification using multiple deep learning models- YOLO-v7, Cascade-LD, Depth-Anything.
+    </p> -->
+                        <p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Arduino</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">G Code</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">Mechanics</p>
+						<p style="font-size:70%;font-weight: bold;" class="btn btn-outline-primary">CAD</p>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio End -->
+<!-- PAGE BREAK -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/vkella"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://github.com/vkella"><i class="fab fa-git"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Thank you!!</a>. For visiting my portfolio <a class="text-white font-weight-bold" </a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
