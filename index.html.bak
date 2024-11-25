@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>Vamsee Krishna Kella - Portfolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Portfolio" name="keywords">
+    <meta content="My Web Page" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -43,7 +43,7 @@
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
             </div>
-            <a href="assets/doc/VamseeKrishnaKella_Resume.pdf" class="btn btn-outline-primary d-none d-lg-block">Resume</a>
+            <a href="data/VamseeKrishnaKella_Resume.pdf" class="btn btn-outline-primary d-none d-lg-block">Resume</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -113,7 +113,7 @@
 
 
                  
-                    <a href="" class="btn btn-outline-primary mr-4">Resume</a>
+                    <a href="data/VamseeKrishnaKella_Resume.pdf" class="btn btn-outline-primary mr-4">Resume</a>
                     
                 </div>
             </div>
